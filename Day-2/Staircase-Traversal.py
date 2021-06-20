@@ -17,7 +17,7 @@ def staircase_traversal(height,max):
   res = 0
   i = 1
   while i<=max and i<=height:
-      res = res + staircase_traversal(height-i, m)
+      res = res + staircase_traversal(height-i, max)
       i = i + 1
   return res
 
